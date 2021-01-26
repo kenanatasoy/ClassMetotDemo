@@ -6,43 +6,43 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-            Musteri[] musteri = new Musteri[4];
+            Musteri[] musteriler = new Musteri[4];
 
-            musteri[0] = new Musteri();
+            musteriler[0] = new Musteri();
 
-            musteri[0].Id = 1000;
-            musteri[0].Ad = "Ayşe";
-            musteri[0].Soyad = "Katırcı";
-            musteri[0].Cinsiyet = "Kadın";
+            musteriler[0].Id = 1000;
+            musteriler[0].Ad = "Ayşe";
+            musteriler[0].Soyad = "Katırcı";
+            musteriler[0].Cinsiyet = "Kadın";
 
-            musteri[1] = new Musteri();
+            musteriler[1] = new Musteri();
 
-            musteri[1].Id = 1001;
-            musteri[1].Ad = "Kemal";
-            musteri[1].Soyad = "İnce";
-            musteri[1].Cinsiyet = "Erkek";
+            musteriler[1].Id = 1001;
+            musteriler[1].Ad = "Kemal";
+            musteriler[1].Soyad = "İnce";
+            musteriler[1].Cinsiyet = "Erkek";
 
-            musteri[2] = new Musteri();
+            musteriler[2] = new Musteri();
 
-            musteri[2].Id = 1002;
-            musteri[2].Ad = "Selma";
-            musteri[2].Soyad = "Demirci";
-            musteri[2].Cinsiyet = "Kadın";
+            musteriler[2].Id = 1002;
+            musteriler[2].Ad = "Selma";
+            musteriler[2].Soyad = "Demirci";
+            musteriler[2].Cinsiyet = "Kadın";
 
-            musteri[3] = new Musteri();
+            musteriler[3] = new Musteri();
 
-            musteri[3].Id = 1003;
-            musteri[3].Ad = "Murat";
-            musteri[3].Soyad = "Bozkıran";
-            musteri[3].Cinsiyet = "Erkek";
+            musteriler[3].Id = 1003;
+            musteriler[3].Ad = "Murat";
+            musteriler[3].Soyad = "Bozkıran";
+            musteriler[3].Cinsiyet = "Erkek";
 
             MusteriManager musteriManager = new MusteriManager();
 
-            musteriManager.MusteriEkle(musteri[1]);
+            musteriManager.MusteriEkle(musteriler[1]);
 
-            musteriManager.MusteriSil(musteri[2]);
+            musteriManager.MusteriSil(musteriler[2]);
 
-            musteriManager.MusteriListele(musteri);
+            musteriManager.MusteriListele(musteriler);
 
         }
     }
