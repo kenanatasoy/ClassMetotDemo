@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassMetotDemo
 {
-    class MusteriManager
+    class MusteriManager:IMusteriService
     {
         public void MusteriEkle(Musteri musteri)
         {
